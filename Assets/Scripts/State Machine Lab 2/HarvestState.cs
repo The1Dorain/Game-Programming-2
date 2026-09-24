@@ -20,7 +20,8 @@ namespace Core.FSM
 
         public override void Update()
         {
-            
+            if (agent.destination == harvestingPlot.transform.position) return;
+            agent.SetDestination(harvestingPlot.transform.position);
         }
 
         public override void Exit()

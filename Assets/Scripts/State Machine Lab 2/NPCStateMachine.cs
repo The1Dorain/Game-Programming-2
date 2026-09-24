@@ -8,6 +8,8 @@ namespace Core.FSM
     public class NPCStateMachine : MonoBehaviour
     {
         StateMachine stateMachine;
+        [SerializeField] private VoidEventChannel harvestEvent;
+        [SerializeField] private bool isHarvestReady = false;
 
         private void Awake()
         {
@@ -24,11 +26,11 @@ namespace Core.FSM
             PlantingState plant = new PlantingState(renderer, agent);
 
             stateMachine.AddTransition(rest, patrol, new FuncPredicate(() => Keyboard.current.pKey.wasPressedThisFrame));
-            stateMachine.AddTransition(rest, harvest, new FuncPredicate(() => Keyboard.current.hKey.wasPressedThisFrame));
+            stateMachine.AddTransition(rest, harvest, new FuncPredicate(() => isHarvestReady));
             stateMachine.AddTransition(rest, guard, new FuncPredicate(() => Keyboard.current.gKey.wasPressedThisFrame));
             stateMachine.AddTransition(rest, plant, new FuncPredicate(() => Keyboard.current.sKey.wasPressedThisFrame));
 
-            stateMachine.AddTransition(harvest, rest, new FuncPredicate(() => Keyboard.current.rKey.wasPressedThisFrame));
+            stateMachine.AddTransition(harvest, rest, new FuncPredicate(() => !isHarvestReady));
             stateMachine.AddTransition(patrol, rest, new FuncPredicate(() => Keyboard.current.rKey.wasPressedThisFrame));
             stateMachine.AddTransition(guard, rest, new FuncPredicate(() => Keyboard.current.rKey.wasPressedThisFrame));
             stateMachine.AddTransition(plant, rest, new FuncPredicate(() => Keyboard.current.rKey.wasPressedThisFrame));
@@ -36,11 +38,29 @@ namespace Core.FSM
             stateMachine.AddTransition(harvest, plant, new FuncPredicate(() => Keyboard.current.sKey.wasPressedThisFrame)); // Add future code to check if you have available seeds after harvest, then run code.
 
             stateMachine.SetState(rest);
+
+            harvestEvent.OnEventRaised += TransitionToHarvest;
         }
 
         private void Update()
         {
             stateMachine.Update();
+        }
+
+        private void OnDisable()
+        {
+            harvestEvent.OnEventRaised -= TransitionToHarvest;
+        }
+
+        private bool CheckHarvestPoint(Vector3 harvestLocation)
+        {
+            return isHarvestReady;
+        }
+
+        private void TransitionToHarvest()
+        {
+
+            isHarvestReady = !isHarvestReady;
         }
     }
 }

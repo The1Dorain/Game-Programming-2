@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\doria\\documents\\game dev term 3\\game programming 2\\demos\\vector demo\\assets\\factory\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\factory\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\doria\\documents\\game dev term 3\\game programming 2\\demos\\vector demo\\assets\\factory\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\factory\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\doria\\documents\\game dev term 3\\game programming 2\\demos\\vector demo\\assets\\factory\\farmerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\factory\\farmerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\doria\\documents\\game dev term 3\\game programming 2\\demos\\vector demo\\assets\\scripts\\state machine lab 2\\npcstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\state machine lab 2\\npcstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\doria\\documents\\game dev term 3\\game programming 2\\demos\\vector demo\\assets\\scripts\\state machine lab 2\\harveststate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\state machine lab 2\\harveststate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\doria\\documents\\game dev term 3\\game programming 2\\demos\\vector demo\\assets\\factory\\genericfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\factory\\genericfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\doria\\documents\\game dev term 3\\game programming 2\\demos\\vector demo\\assets\\events\\voideventchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\events\\voideventchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\doria\\documents\\game dev term 3\\game programming 2\\demos\\vector demo\\assets\\events\\eventtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\events\\eventtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Farmer.cs",
+              "DocumentMoniker": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Factory\\Farmer.cs",
+              "RelativeDocumentMoniker": "Assets\\Factory\\Farmer.cs",
+              "ToolTip": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Factory\\Farmer.cs",
+              "RelativeToolTip": "Assets\\Factory\\Farmer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T01:52:42.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FarmerFactory.cs",
+              "DocumentMoniker": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Factory\\FarmerFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Factory\\FarmerFactory.cs",
+              "ToolTip": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Factory\\FarmerFactory.cs",
+              "RelativeToolTip": "Assets\\Factory\\FarmerFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T01:40:21.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Spawner.cs",
+              "DocumentMoniker": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Factory\\Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Factory\\Spawner.cs",
+              "ToolTip": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Factory\\Spawner.cs",
+              "RelativeToolTip": "Assets\\Factory\\Spawner.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T01:01:36.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericFactory.cs",
+              "DocumentMoniker": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Factory\\GenericFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Factory\\GenericFactory.cs",
+              "ToolTip": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Factory\\GenericFactory.cs",
+              "RelativeToolTip": "Assets\\Factory\\GenericFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T00:41:09.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HarvestState.cs",
+              "DocumentMoniker": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Scripts\\State Machine Lab 2\\HarvestState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\State Machine Lab 2\\HarvestState.cs",
+              "ToolTip": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Scripts\\State Machine Lab 2\\HarvestState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\State Machine Lab 2\\HarvestState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T23:52:42.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventTimer.cs",
+              "DocumentMoniker": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Events\\EventTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\Events\\EventTimer.cs",
+              "ToolTip": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Events\\EventTimer.cs",
+              "RelativeToolTip": "Assets\\Events\\EventTimer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T23:20:46.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NPCStateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Scripts\\State Machine Lab 2\\NPCStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\State Machine Lab 2\\NPCStateMachine.cs",
+              "ToolTip": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Scripts\\State Machine Lab 2\\NPCStateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\State Machine Lab 2\\NPCStateMachine.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T23:16:48.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VoidEventChannel.cs",
+              "DocumentMoniker": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Events\\VoidEventChannel.cs",
+              "RelativeDocumentMoniker": "Assets\\Events\\VoidEventChannel.cs",
+              "ToolTip": "C:\\Users\\doria\\Documents\\Game Dev Term 3\\Game Programming 2\\Demos\\Vector Demo\\Assets\\Events\\VoidEventChannel.cs",
+              "RelativeToolTip": "Assets\\Events\\VoidEventChannel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T23:10:18.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

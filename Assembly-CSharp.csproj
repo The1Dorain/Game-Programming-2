@@ -56,19 +56,34 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\State Machine Lab 2\PatrolState.cs" />
     <Compile Include="Assets\Scripts\Vectors.cs" />
+    <Compile Include="Assets\Events\Vector3EventChannel.cs" />
     <Compile Include="Assets\Scripts\State Machine Lab 2\HarvestState.cs" />
+    <Compile Include="Assets\Factory\Projectile.cs" />
+    <Compile Include="Assets\Events\Player.cs" />
+    <Compile Include="Assets\Factory\Farmer.cs" />
     <Compile Include="Assets\TutorialInfo\Readme.cs" />
     <Compile Include="Assets\Scripts\State Machine Lab 2\PlantingState.cs" />
+    <Compile Include="Assets\Events\Vector2EventChannel.cs" />
+    <Compile Include="Assets\Factory\GenericFactory.cs" />
     <Compile Include="Assets\Scripts\State Machine Lab 2\StateMachine.cs" />
     <Compile Include="Assets\Scripts\State Machine Lab 2\FuncPredicate.cs" />
     <Compile Include="Assets\Scripts\FSM\BasicStateMachine.cs" />
+    <Compile Include="Assets\Factory\Bomb.cs" />
+    <Compile Include="Assets\Events\EventTimer.cs" />
     <Compile Include="Assets\Scripts\State Machine Lab 2\ITransition.cs" />
     <Compile Include="Assets\Scripts\State Machine Lab 2\Transition.cs" />
+    <Compile Include="Assets\Factory\Arrow.cs" />
     <Compile Include="Assets\Scripts\State Machine Lab 2\RestState.cs" />
     <Compile Include="Assets\Scripts\State Machine Lab 2\IState.cs" />
     <Compile Include="Assets\Scripts\State Machine Lab 2\GuardState.cs" />
+    <Compile Include="Assets\Factory\FarmerFactory.cs" />
+    <Compile Include="Assets\Factory\Spawner.cs" />
+    <Compile Include="Assets\Events\PlayerEventChannel.cs" />
     <Compile Include="Assets\Scripts\State Machine Lab 2\IPredicate.cs" />
+    <Compile Include="Assets\Factory\Spell.cs" />
+    <Compile Include="Assets\Events\GenericEventChannel.cs" />
     <Compile Include="Assets\Scripts\State Machine Lab 2\NPCStateMachine.cs" />
+    <Compile Include="Assets\Events\VoidEventChannel.cs" />
     <Compile Include="Assets\Scripts\State Machine Lab 2\BaseState.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1277,6 +1292,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1309,6 +1328,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.PathTracing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.PathTracing.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -1335,6 +1358,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
@@ -1411,6 +1438,10 @@
     </Reference>
     <Reference Include="Unity.GraphAuthoring.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.GraphAuthoring.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
@@ -1539,6 +1570,14 @@
     </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AutoGroupGenerator.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AutoGroupGenerator.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI">
